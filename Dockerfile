@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     git
 
-RUN pip3 install PyYAML
+#RUN pip3 install PyYAML
 
 COPY create_feed.py /usr/bin/feed.py
 
